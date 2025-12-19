@@ -1,0 +1,115 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', 'Monaco', 'Consolas', monospace;
+    background: #0a0a0a;
+    color: #00ff00;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #00ff00;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.mp-card {
+    background: #0a0a0a;
+    border: 1px solid #00ff00;
+    padding: 40px;
+}
+
+.mp-card h2 {
+    color: #00ff00;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #00ff00;
+    padding-bottom: 10px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #00ff00;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    background: #0a0a0a;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    font-family: 'Courier New', 'Monaco', 'Consolas', monospace;
+    font-size: 1rem;
+}
+
+.input-group input:focus {
+    outline: 1px solid #00ff00;
+}
+
+.input-group input::placeholder {
+    color: #00aa00;
+}
+
+button {
+    width: 100%;
+    padding: 12px 24px;
+    background: #0a0a0a;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    font-family: 'Courier New', 'Monaco', 'Consolas', monospace;
+    font-size: 1rem;
+    font-weight: normal;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #00ff00;
+    color: #0a0a0a;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 1rem;
+    min-height: 50px;
+    display: none;
+    font-family: 'Courier New', 'Monaco', 'Consolas', monospace;
+}
+
+.result.show {
+    display: block;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    background: #0a0a0a;
+}
+
+/* 
+Author: Myca Joanne M. Faeldonia
+Description: This is a demo CSS file for FA3.
+Date: December 2025
+*/
